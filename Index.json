@@ -1,0 +1,35 @@
+{
+  "clinic": {
+    "name": "PearlSmile Dental Clinic",
+    "tagline": "Your Happiest Smile Starts Here.",
+    "email": "hello@pearlsmile.example",
+    "phone": "+92 300 555 0182",
+    "address": "24 Blossom Avenue, Gulberg, Lahore, Pakistan",
+    "timezone": "Asia/Karachi",
+    "openingHours": [
+      { "day": 0, "name": "Sunday", "isOpen": false, "open": "00:00", "close": "00:00" },
+      { "day": 1, "name": "Monday", "isOpen": true, "open": "09:00", "close": "19:00" },
+      { "day": 2, "name": "Tuesday", "isOpen": true, "open": "09:00", "close": "19:00" },
+      { "day": 3, "name": "Wednesday", "isOpen": true, "open": "09:00", "close": "19:00" },
+      { "day": 4, "name": "Thursday", "isOpen": true, "open": "09:00", "close": "19:00" },
+      { "day": 5, "name": "Friday", "isOpen": true, "open": "09:00", "close": "19:00" },
+      { "day": 6, "name": "Saturday", "isOpen": true, "open": "10:00", "close": "17:00" }
+    ]
+  },
+  "services": [
+    { "name": "General Dentistry", "description": "Comprehensive exams, cleanings, and digital X-rays to maintain oral health.", "price": 5000, "duration": 30, "active": true, "image": "https://images.unsplash.com/photo-1606811841689-23dfddce3e95?auto=format&fit=crop&w=500&q=80" },
+    { "name": "Teeth Whitening", "description": "Professional laser whitening for a vibrant, bright smile in a single visit.", "price": 15000, "duration": 60, "active": true, "image": "https://images.unsplash.com/photo-1598256989800-fea5ce5146f2?auto=format&fit=crop&w=500&q=80" },
+    { "name": "Cosmetic Dentistry", "description": "Veneers, bonding, and smile makeovers tailored to your facial aesthetics.", "price": 25000, "duration": 60, "active": true, "image": "https://images.unsplash.com/photo-1629909613654-28e377c37b09?auto=format&fit=crop&w=500&q=80" },
+    { "name": "Dental Implants", "description": "Permanent, natural-looking replacements for missing teeth using titanium posts.", "price": 85000, "duration": 90, "active": true, "image": "https://images.unsplash.com/photo-1574406323677-769a7b5bb48e?auto=format&fit=crop&w=500&q=80" },
+    { "name": "Orthodontics", "description": "Traditional braces and clear aligners to correct bite alignment and spacing.", "price": 120000, "duration": 45, "active": true, "image": "https://images.unsplash.com/photo-1588776814546-1ffcf47267a5?auto=format&fit=crop&w=500&q=80" },
+    { "name": "Pediatric Dentistry", "description": "Gentle, anxiety-free dental care specialized for children and toddlers.", "price": 4000, "duration": 30, "active": true, "image": "https://images.unsplash.com/photo-1609840114035-3c981b782dfe?auto=format&fit=crop&w=500&q=80" },
+    { "name": "Root Canal", "description": "Painless endodontic therapy to save severely decayed or infected teeth.", "price": 12000, "duration": 60, "active": true, "image": "https://images.unsplash.com/photo-1606811841689-23dfddce3e95?auto=format&fit=crop&w=500&q=80" },
+    { "name": "Preventive Care", "description": "Fluoride treatments, sealants, and deep scaling for long-term protection.", "price": 6000, "duration": 30, "active": true, "image": "https://images.unsplash.com/photo-1598256989800-fea5ce5146f2?auto=format&fit=crop&w=500&q=80" }
+  ],
+  "dentists": [
+    { "name": "Dr. Areeba Noor", "specialty": "Cosmetic and Restorative Dentistry", "bio": "Lead dentist with a passion for smile transformations and minimally invasive restorative care.", "image": "https://images.unsplash.com/photo-1559839734-2b71ea197ec2?auto=format&fit=crop&w=400&q=80", "active": true },
+    { "name": "Dr. Zayan Malik", "specialty": "Orthodontist", "bio": "Expert in clear aligners and traditional orthodontics for both adults and children.", "image": "https://images.unsplash.com/photo-1622253692010-333f2da6031d?auto=format&fit=crop&w=400&q=80", "active": true },
+    { "name": "Dr. Hania Farooq", "specialty": "Pediatric Dentist", "bio": "Dedicated to creating a fun, comfortable, and positive dental experience for kids.", "image": "https://images.unsplash.com/photo-1594824432465-900388d55734?auto=format&fit=crop&w=400&q=80", "active": true },
+    { "name": "Dr. Rayyan Ahmed", "specialty": "General Dentist", "bio": "Focused on comprehensive oral health, pain-free extractions, and preventive medicine.", "image": "https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?auto=format&fit=crop&w=400&q=80", "active": true }
+  ]
+}
